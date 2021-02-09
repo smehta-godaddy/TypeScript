@@ -16074,7 +16074,7 @@ interface URLSearchParams {
     /**
      * Appends a specified key/value pair as a new search parameter.
      */
-    append(name: string, value: string): void;
+    append(name: string, value: string | number): void;
     /**
      * Deletes the given search parameter, and its associated value, from the list of all search parameters.
      */
